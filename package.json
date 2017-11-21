@@ -7,6 +7,10 @@
     "start": "webpack-dev-server",
     "test": "jest --coverage"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcrowder65/mui-signup"
+  },
   "keywords": [],
   "author": "mcrowder65",
   "license": "ISC",
