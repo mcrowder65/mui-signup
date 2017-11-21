@@ -5,7 +5,8 @@
   "main": "signup.jsx",
   "scripts": {
     "start": "webpack-dev-server",
-    "test": "jest --coverage"
+    "test": "eslint signup.jsx && jest --coverage",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
   },
   "repository": {
     "type": "git",
